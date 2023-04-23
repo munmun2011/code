@@ -1,0 +1,17 @@
+{
+    "name": "unicode/mvc",
+    "description": "Build MVC by Unicode",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "Controllers/",
+            "Core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Van Thanh Tung"
+        }
+    ],
+    "require": {}
+}
